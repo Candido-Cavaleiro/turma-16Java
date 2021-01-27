@@ -16,7 +16,7 @@ public class exerc5
 		System.out.print("Digite a Segunda nota: ");
 		n2 = scan.nextDouble();
 
-		System.out.print("Digite a Terceira nota: ");
+		System.out.print("Digite a Terceira nota: "); 
 		n3 = scan.nextDouble();
 
 		media = (n1*0.2 + n2*0.3 + n3*0.5);
