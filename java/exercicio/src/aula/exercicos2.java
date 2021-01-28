@@ -3,7 +3,7 @@ package aula;
 import java.util.Scanner;
 
 public class exercicos2 {
-
+ 
 
 public static void main(String[] args)
 {
