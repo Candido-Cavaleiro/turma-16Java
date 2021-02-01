@@ -20,7 +20,11 @@ public class exercicios
 		   dias= leia.nextInt();
 		   
 		   soma=(anos*365 + meses*30+dias);
-		System.out.println("ln Sua idade em dias é de"+soma+"dias");
+		System.out.println("ln Sua idade em dias é de" +soma+" dias\n");
 	 
-  }
+  
+       System.out.println("25 anos fim de programa!!!! ");
 }
+  
+  }
+        
