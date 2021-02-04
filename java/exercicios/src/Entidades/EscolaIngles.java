@@ -11,7 +11,7 @@ public class EscolaIngles {
 	Scanner leia = new Scanner(System.in);
 		
 		Pessoa Aluno = new Pessoa();	
-		System.out.println("Informe seu nome ");
+		System.out.println("Informe seu nome completo ");
 		Aluno.nome = leia.next();
 		System.out.println("Informe ano de Nascimento [aaaa]: ");
 		Aluno.anoNascimento = leia.nextInt();
@@ -20,9 +20,11 @@ public class EscolaIngles {
 				
 				System.out.println(" só podes fazer o curso teen");
 			}
-			else {
-				System.out.println(" podes fazer os cursos");
-				
+			
+			
+			
+	if(Aluno.anoNascimento >18) {
+		System.out.println(" podes fazer os cursos");
 	
 	}
 	}
